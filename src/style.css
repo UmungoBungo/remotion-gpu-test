@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo-style {
+	text-shadow: 1px 1px 0px #f8fafc, -1px 0 0px #f8fafc, 4px 3px 0 #fdba74;
+}
