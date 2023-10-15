@@ -11,6 +11,8 @@ This repo makes use of
 - filter: blur()
 - filter: drop-shadow()
 
+This also makes use of react-three-fiber for a 3d scene.
+
 ## Commands
 
 **Install Dependencies**

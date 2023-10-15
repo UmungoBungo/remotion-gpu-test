@@ -1,5 +1,6 @@
 import {AbsoluteFill, staticFile, OffthreadVideo} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/PlusJakartaSans';
+import {Scene} from './phone/Scene';
 
 const {fontFamily} = loadFont();
 
@@ -117,6 +118,7 @@ export const MyComposition = () => {
 				</div>
 			</div>
 			<OffthreadVideo src={vid1} className="h-full min-w-full object-cover" />
+			<Scene />
 		</AbsoluteFill>
 	);
 };
